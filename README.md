@@ -1,36 +1,173 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 ByteVerse – Modern Developer Blog
 
-## Getting Started
+ByteVerse is a modern, responsive developer and technology blog built with **Next.js 16**, **Tailwind CSS**, **React Query**, and **MockAPI**. The application provides a premium reading experience with Server-Side Rendering (SSR), dynamic routing, search functionality, SEO optimization, and a sleek dark-themed user interface.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- 🚀 Built with Next.js 16 (App Router)
+- ⚡ Server-Side Rendering (SSR) for the homepage
+- 🔗 Dynamic blog pages
+- 🌐 MockAPI integration for blog data
+- ⚛️ React Query for data fetching and caching
+- 🔍 Search blogs by title, author, and category
+- 🌙 Premium responsive dark-themed UI
+- ⭐ Featured article section
+- 🏷️ Trending categories
+- 👨‍💻 Featured authors section
+- ℹ️ About section
+- 📧 Newsletter subscription section
+- 🔐 Sign In page UI
+- 📱 Fully responsive design
+- 🔍 SEO metadata optimization
+- ⏳ Custom loading screens
+- 🚫 Custom 404 page
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js 16**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **React Query**
+- **MockAPI**
+- **Vercel**
+
+---
+
+## 📂 Project Structure
+
+```text
+app/
+├── blog/
+│   └── [id]/
+│       ├── loading.tsx
+│       └── page.tsx
+├── signin/
+│   └── page.tsx
+├── globals.css
+├── layout.tsx
+├── loading.tsx
+├── not-found.tsx
+└── page.tsx
+
+components/
+├── About.tsx
+├── BlogCard.tsx
+├── BlogList.tsx
+├── Categories.tsx
+├── FeaturedAuthors.tsx
+├── FeaturedBlog.tsx
+├── Footer.tsx
+├── Navbar.tsx
+└── NewsLetter.tsx
+
+hooks/
+├── useBlogs.ts
+
+lib/
+├── api.ts
+
+providers/
+├── ReactQueryProvider.tsx
+
+public/
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+```
+
+Navigate to the project:
+
+```bash
+cd YOUR_REPOSITORY
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env.local` file in the project root and add:
+
+```env
+NEXT_PUBLIC_API_URL=YOUR_MOCKAPI_BASE_URL
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🏗️ Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is deployed using **Vercel**.
+
+Deployment Steps:
+
+1. Push the project to GitHub.
+2. Import the repository into Vercel.
+3. Add the required environment variable:
+
+```env
+NEXT_PUBLIC_API_URL=YOUR_MOCKAPI_BASE_URL
+```
+
+4. Click **Deploy**.
+
+---
+
+## ✅ Assignment Requirements Covered
+
+- ✔ Latest stable version of Next.js
+- ✔ Server-Side Rendering (SSR)
+- ✔ Dynamic Routing
+- ✔ MockAPI Integration
+- ✔ React Query for data fetching
+- ✔ Tailwind CSS UI
+- ✔ Responsive Design
+- ✔ Search Functionality
+- ✔ SEO Metadata
+- ✔ Component-Based Architecture
+- ✔ Custom Loading Screen
+- ✔ Custom 404 Page
+
+---
+
+## 📄 License
+
+This project was developed for educational purposes as part of the **Next.js Blog Application** assignment.
