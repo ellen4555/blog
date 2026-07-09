@@ -5,7 +5,6 @@ import FeaturedBlog from "./FeaturedBlog";
 import BlogCard from "./BlogCard";
 import Categories from "./Categories";
 import About from "./About";
-import NewsLetter from "./NewsLetter";
 import FeaturedAuthors from "./FeaturedAuthors";
 
 type Blog = {
@@ -150,7 +149,7 @@ export default function BlogList({ blogs }: { blogs: Blog[] }) {
 
           <About />
 
-          <NewsLetter />
+          
         </>
       )}
     </>
