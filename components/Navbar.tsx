@@ -52,12 +52,7 @@ export default function Navbar() {
         {/* Right Side */}
         <div className="flex items-center gap-4">
 
-          <Link
-            href="/signin"
-            className="hidden rounded-xl bg-blue-600 px-5 py-2.5 font-semibold text-white transition hover:bg-blue-700 md:block"
-          >
-            Sign In
-          </Link>
+          
 
           {/* Mobile Menu Button */}
           <button
