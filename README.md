@@ -18,7 +18,6 @@ ByteVerse is a modern, responsive developer and technology blog built with **Nex
 - 👨‍💻 Featured authors section
 - ℹ️ About section
 - 📧 Newsletter subscription section
-- 🔐 Sign In page UI
 - 📱 Fully responsive design
 - 🔍 SEO metadata optimization
 - ⏳ Custom loading screens
