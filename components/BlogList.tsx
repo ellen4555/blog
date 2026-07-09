@@ -78,41 +78,7 @@ export default function BlogList({ blogs }: { blogs: Blog[] }) {
             />
           </div>
 
-          {/* Stats */}
-
-          <div className="mt-20 grid gap-8 md:grid-cols-3">
-
-            <div className="rounded-2xl border border-slate-800 bg-slate-900 p-8">
-              <h2 className="text-4xl font-bold text-blue-400">
-                100+
-              </h2>
-
-              <p className="mt-2 text-slate-400">
-                Premium Articles
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-slate-800 bg-slate-900 p-8">
-              <h2 className="text-4xl font-bold text-blue-400">
-                20K+
-              </h2>
-
-              <p className="mt-2 text-slate-400">
-                Monthly Readers
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-slate-800 bg-slate-900 p-8">
-              <h2 className="text-4xl font-bold text-blue-400">
-                50+
-              </h2>
-
-              <p className="mt-2 text-slate-400">
-                Expert Writers
-              </p>
-            </div>
-
-          </div>
+         
 
         </div>
 

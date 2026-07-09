@@ -97,27 +97,7 @@ export default async function BlogPage({ params }: Props) {
           </p>
         </article>
 
-        {/* Share */}
-        <div className="mt-16 rounded-2xl border border-slate-800 bg-slate-900 p-6">
-          <h3 className="text-xl font-semibold">
-            Share this article
-          </h3>
-
-          <div className="mt-6 flex gap-4">
-            <button className="rounded-lg bg-slate-800 px-5 py-3 transition hover:bg-blue-600">
-              Twitter
-            </button>
-
-            <button className="rounded-lg bg-slate-800 px-5 py-3 transition hover:bg-blue-600">
-              LinkedIn
-            </button>
-
-            <button className="rounded-lg bg-slate-800 px-5 py-3 transition hover:bg-blue-600">
-              Copy Link
-            </button>
-          </div>
-        </div>
-
+        
       </section>
     </main>
   );
