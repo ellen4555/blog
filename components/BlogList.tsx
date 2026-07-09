@@ -3,7 +3,6 @@
 import { useState } from "react";
 import FeaturedBlog from "./FeaturedBlog";
 import BlogCard from "./BlogCard";
-import Categories from "./Categories";
 import About from "./About";
 import FeaturedAuthors from "./FeaturedAuthors";
 
@@ -111,7 +110,7 @@ export default function BlogList({ blogs }: { blogs: Blog[] }) {
         </section>
       ) : (
         <>
-          <Categories />
+        
 
           {featuredBlog && (
             <section className="mx-auto mt-24 max-w-7xl px-6">

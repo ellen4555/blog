@@ -44,8 +44,6 @@ app/
 │   └── [id]/
 │       ├── loading.tsx
 │       └── page.tsx
-├── signin/
-│   └── page.tsx
 ├── globals.css
 ├── layout.tsx
 ├── loading.tsx
